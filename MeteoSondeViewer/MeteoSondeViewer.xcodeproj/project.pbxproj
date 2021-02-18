@@ -13,6 +13,7 @@
 		DCD41CF425DF118A00F167A3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DCD41CF225DF118A00F167A3 /* Main.storyboard */; };
 		DCD41CF625DF118B00F167A3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DCD41CF525DF118B00F167A3 /* Assets.xcassets */; };
 		DCD41CF925DF118B00F167A3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DCD41CF725DF118B00F167A3 /* LaunchScreen.storyboard */; };
+		DCD41D0325DF12F100F167A3 /* SondeData.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCD41D0225DF12F100F167A3 /* SondeData.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		DCD41CF525DF118B00F167A3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DCD41CF825DF118B00F167A3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DCD41CFA25DF118B00F167A3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DCD41D0225DF12F100F167A3 /* SondeData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SondeData.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 		DCD41CEB25DF118A00F167A3 /* MeteoSondeViewer */ = {
 			isa = PBXGroup;
 			children = (
+				DCD41D0125DF11FF00F167A3 /* Models */,
 				DCD41CEC25DF118A00F167A3 /* AppDelegate.swift */,
 				DCD41CEE25DF118A00F167A3 /* SceneDelegate.swift */,
 				DCD41CF025DF118A00F167A3 /* ViewController.swift */,
@@ -65,6 +68,14 @@
 				DCD41CFA25DF118B00F167A3 /* Info.plist */,
 			);
 			path = MeteoSondeViewer;
+			sourceTree = "<group>";
+		};
+		DCD41D0125DF11FF00F167A3 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				DCD41D0225DF12F100F167A3 /* SondeData.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,6 +149,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				DCD41CF125DF118A00F167A3 /* ViewController.swift in Sources */,
+				DCD41D0325DF12F100F167A3 /* SondeData.swift in Sources */,
 				DCD41CED25DF118A00F167A3 /* AppDelegate.swift in Sources */,
 				DCD41CEF25DF118A00F167A3 /* SceneDelegate.swift in Sources */,
 			);
