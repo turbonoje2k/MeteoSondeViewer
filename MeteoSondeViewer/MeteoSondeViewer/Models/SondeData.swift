@@ -7,8 +7,8 @@
 
 import Foundation
 
-struct SondeData {
-    var Temperatur: String = ""
+struct SondeData: Codable {
+    var Temperature: String = ""
     var Humidity: String = ""
     
 }
