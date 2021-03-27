@@ -32,7 +32,7 @@ class ViewController: UIViewController {
                 
                 do {
                     let sondeData = try decoder.decode(SondeData.self, from: data!)
-                    print("This is JSON result -->> \n\(sondeData)")
+                    print("This is JSON result -->> \n the temperature :  \(sondeData.Temperature), \n the humidity : \(sondeData.Humidity)")
                     
                 } catch {
                     debugPrint("Error in JSON parsing !")
